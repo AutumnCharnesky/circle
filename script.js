@@ -2,7 +2,7 @@ function CalculateArea(){
 
   var radius =document.getElementById('myButton').value;
 
-// circle equation 
+// circle equation
   var fineCircle=document.createElement('div');
   fineCircle.style.width=radius * 2 + 'px' ;
   fineCircle.style.height=radius * 2 + 'px' ;
