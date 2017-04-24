@@ -12,9 +12,17 @@ h3 {
   font-family: 'Rubik Mono One', sans-serif;
 }
 
+.myButton {
+  text-align: center;
+}
+
 div {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  image-orientation: center;
+
+}
+
+.area {
+  text-align: center;
 }
