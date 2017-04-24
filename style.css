@@ -6,3 +6,15 @@ h1{
   text-align: center;
   font-family: 'Rubik Mono One', sans-serif;
 }
+
+h3 {
+  text-align: center;
+  font-family: 'Rubik Mono One', sans-serif;
+}
+
+div {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  image-orientation: center;
+}
