@@ -1,28 +1,27 @@
+/*background*/
 body {
-  background-color: maroon;
+  background-image: url(images/chubbyBubbles.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
-h1{
+/*headers*/
+h1, h3, h4 {
   text-align: center;
   font-family: 'Rubik Mono One', sans-serif;
 }
 
-h3 {
-  text-align: center;
-  font-family: 'Rubik Mono One', sans-serif;
-}
-
+/*button*/
 .myButton {
   text-align: center;
 }
 
+/*circle*/
 div {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 
-}
-
-.area {
-  text-align: center;
 }

@@ -1,36 +1,36 @@
 <!DOCTYPE html>
 
 <html>
+
   <head>
     <meta charset="utf-8">
-    <title></title>
-
-      <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
-
-    <style>
+      <title></title>
+      <!-- css link -->
+        <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+      <style>
+      /*font link*/
     @import url('https://fonts.googleapis.com/css?family=Rubik+Mono+One');
-    </style>
-
-  </head>
-
-  <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+  </style>
+</head>
 
     <body>
-
+      <!-- headers -->
       <h1>You bring the numbers, we bring the circle.</h1>
-
       <h3>Make it really big. I dare you.</h3>
 
+        <!-- Button -->
+        <div class='myButton'>
+          <input type="number" id="myButton">
+            <button type="button" onclick="CalculateArea()">Create Circle</button>
+        </div>
 
-  <div class='myButton'>
-    <input type="number" id="myButton">
+        <!-- Area info -->
+        <h4>Your area is: </h4>
+        <p id = "area"></p>
 
-    <button type="button" onclick="CalculateArea()">Create Circle</button>
-  </div>
-    <p id = "area"></p>
-
-    <script src="script.js" charset="utf-8">
-</script>
+        <!-- js link -->
+        <script src="script.js" charset="utf-8">
+        </script>
 
   </body>
 </html>
